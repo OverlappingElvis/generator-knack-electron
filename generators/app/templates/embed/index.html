@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title><%= appName %></title>
+    <link rel="stylesheet" href="embed.css">
+  </head>
+  <body>
+  	<script type="text/javascript">app_id="<%= appId %>";distribution_key="<%= distributionKey %>";</script><script type="text/javascript" src="https://loader.knack.com/<%= appId %>/<%= distributionKey %>/knack.js"></script><div id="knack-<%= distributionKey %>">Loading...</div>
+	</body>
+</html>
