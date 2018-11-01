@@ -1,14 +1,22 @@
 {
   "name": "generator-knack-electron",
   "version": "0.1.0",
-  "description": "",
+  "description": "Yeoman generator for creating Electron containers for Knack applications.",
+  "author": "Jeremy Sher <OverlappingElvis@gmail.com>",
+  "homepage": "https://www.knack.com/",
   "files": [
     "generators"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "knack",
+    "electron"
   ],
   "dependencies": {
     "yeoman-generator": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OverlappingElvis/generator-knack-electron.git"
   }
 }
