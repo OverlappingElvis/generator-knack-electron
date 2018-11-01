@@ -67,8 +67,8 @@ module.exports = class extends Generator {
     this.npmInstall()
   }
 
-  done () {
+  end () {
 
-    this.log(`All done! Run "npm run start" to start your Electron app.`)
+    this.log(`All done! Run your Electron app with "npm run start".`)
   }
 }
