@@ -9,7 +9,7 @@
   "author": "generator-knack-electron",
   "license": "ISC",
   "devDependencies": {
-    "electron": "7.2.4"
+    "electron": "22.3.21"
   },
   "dependencies": {
     "http-server": "0.11.1"
